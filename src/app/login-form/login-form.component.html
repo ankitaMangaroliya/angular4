@@ -1,0 +1,18 @@
+<div class="login-box">
+  <div class="text-center">
+      <!-- <img src="../../assets/images/logo.png" height="108" width="400" alt="Welcome"/> -->
+    <h2  class="text-center">Angel</h2>
+  </div>
+  <div>
+    <form (ngSubmit)="submit()" #f="ngForm">
+      <div class="form-group">
+        <input type="text" class="form-control"  required [(ngModel)]="name" placeholder="User Name" name="nm"/>
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control"  required name="pwd" placeholder="Passsword"  [(ngModel)]="pass"/>
+      </div>
+      <button type="submit" class="btn btn-primary block full-width m-b loginButton" [ladda]='processing'>Login</button>
+    </form>
+  </div>
+</div>
+

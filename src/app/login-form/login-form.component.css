@@ -1,0 +1,11 @@
+.login-box{
+    color: #fff;
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.loginButton{
+    padding: 6px 1px;
+    border: 1px solid #e5e6e7;
+    border-radius: 4px;
+}

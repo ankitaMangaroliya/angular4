@@ -1,1 +1,301 @@
 /* You can add global styles to this file, and also import other style files */
+.form-control {
+    display: block;
+    width: 93%;
+    height: 18px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #666666;
+    background-color: #dad9d9;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  .form-control:focus {
+    border-color: #1ab394;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 179, 148, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 179, 148, 0.6);
+  }
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #999;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #999;
+  }
+  .form-control::-ms-expand {
+    border: 0;
+    background-color: transparent;
+  }
+
+  .form-control[disabled],
+  .form-control[readonly],
+  fieldset[disabled] .form-control {
+    background-color: #EEE;
+    opacity: 1;
+  }
+  .form-control[disabled],
+  fieldset[disabled] .form-control {
+    cursor: not-allowed;
+  }
+  textarea.form-control {
+    height: auto;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }    
+  .m-b{
+      margin-bottom: 15px;
+  }
+  .full-width{
+      width: 100%;
+  }
+  .ibox,
+  .ibox-content {
+    clear: both;
+  }
+  .ibox {
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 0;
+  }
+  .ibox:after,
+  .ibox:before {
+    display: table;
+  }
+  .ibox.collapsed .ibox-content {
+    display: none;
+  }
+  .ibox.collapsed .fa.fa-chevron-up:before {
+    content: "\f078";
+  }
+  .ibox.collapsed .fa.fa-chevron-down:before {
+    content: "\f077";
+  }
+  .ibox .cell-icons {
+    color: #888888;
+    width: 75px;
+  }
+  .ibox.opaque-bg {
+    border: 1px solid #e5e6e7;
+  }
+  .ibox.opaque-bg .ibox-content,
+  .ibox.opaque-bg .ibox-title {
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 10px 15px 7px;
+    min-height: 48px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .ibox-title.with-border {
+    border-width: 2px 0 0;
+  }
+  .ibox-title.eq-space {
+    padding-top: 7px;
+  }
+  .ibox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+  }
+  .ibox-title.ibox-danger {
+    border-color: #ed5565;
+  }
+  .ibox-title.ibox-info {
+    border-color: #23c6c8;
+  }
+  .ibox-title.ibox-primary {
+    border-color: #1ab394;
+  }
+  .ibox-title.ibox-warning {
+    border-color: #f8ac59;
+  }
+  .ibox-content {
+    background-color: #fff;
+    color: inherit;
+    padding: 15px;
+    border-color: #c4d9e6;
+    border-style: solid solid none;
+    border-width: 3px 0;
+  }
+  .ibox-content.standalone {
+    min-height: 200px;
+  }
+  .ibox-content.child,
+  .ibox-content.border-bottom {
+    border-width: 0;
+  }
+  .ibox-content.no-space {
+    padding: 0;
+  }
+  .ibox-content.no-bg {
+    background-color: transparent;
+    border: 0;
+  }
+  .ibox-content.no-border {
+    border-color: #e7eaec;
+    border-width: 1px 0;
+  }
+  .ibox-content.border-bottom {
+    border-bottom: 1px solid #e7eaec;
+  }
+  .ibox-content.hide-border {
+    border-color: transparent;
+  }
+  .ibox-content.no-margin {
+    margin: 0;
+  }
+  .ibox-content.placeholder {
+    font-size: 30px;
+  }
+  .ibox-content.placeholder .table {
+    min-height: 500px;
+  }
+  .ibox-content.placeholder p {
+    margin-top: 60px;
+  }
+  .ibox-footer {
+    color: inherit;
+    border-top: 1px solid #e7eaec;
+    background: #fff;
+    padding: 0 15px;
+  }
+  .ibox-footer.space {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .ibox-tools {
+    display: block;
+    float: none;
+    margin-top: 0;
+    position: relative;
+    padding: 0;
+    text-align: right;
+  }
+  .ibox-tools a {
+    margin-left: 5px;
+    color: #ced9ec;
+  }
+  .ibox-title h1,
+  .ibox-content h1,
+  .ibox-title h2,
+  .ibox-content h2,
+  .ibox-title h3,
+  .ibox-content h3,
+  .ibox-title h4,
+  .ibox-content h4,
+  .ibox-title h5,
+  .ibox-content h5,
+  .ibox-title h6,
+  .ibox-content h6 {
+    margin-top: 5px;
+  }
+  .ibox-title h1.no-space,
+  .ibox-content h1.no-space,
+  .ibox-title h2.no-space,
+  .ibox-content h2.no-space,
+  .ibox-title h3.no-space,
+  .ibox-content h3.no-space,
+  .ibox-title h4.no-space,
+  .ibox-content h4.no-space,
+  .ibox-title h5.no-space,
+  .ibox-content h5.no-space,
+  .ibox-title h6.no-space,
+  .ibox-content h6.no-space {
+    margin-top: 0;
+  }
+  
+.btn-white {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+  }
+  .btn {
+    border-radius: 3px;
+  }
+  .btn.btn-danger:focus {
+    background: #ed5565;
+    border-color: #de182c;
+    box-shadow: 0 0 0 2px #de182c;
+  }
+  .btn.btn-default:focus {
+    background: #fff;
+    border-color: #b3b3b3;
+    box-shadow: 0 0 0 2px #b3b3b3;
+  }
+  .btn.btn-info:focus {
+    background: #23c6c8;
+    border-color: #188687;
+    box-shadow: 0 0 0 2px #188687;
+  }
+  .btn.btn-primary:focus {
+    background: #1ab394;
+    border-color: #10705d;
+    box-shadow: 0 0 0 2px #10705d;
+  }
+  .btn.btn-success:focus {
+    background: #1c84c6;
+    border-color: #135783;
+    box-shadow: 0 0 0 2px #135783;
+  }
+  .btn.btn-warning:focus {
+    background: #f8ac59;
+    border-color: #f58710;
+    box-shadow: 0 0 0 2px #f58710;
+  }
+  .btn.btn-border,
+  .btn.btn-border:focus {
+    background: #fff;
+    font-weight: 600;
+  }
+  .btn.btn-border.btn-info {
+    border-color: #23c6c8;
+    color: #23c6c8;
+  }
+  .btn.btn-border.btn-primary {
+    border-color: #1ab394;
+    color: #1ab394;
+  }
+  .btn.btn-border.btn-success {
+    border-color: #1c84c6;
+    color: #1c84c6;
+  }
+  .btn.btn-border.btn-warning {
+    border-color: #f8ac59;
+    color: #f8ac59;
+  }
+  .btn-group-xs > .btn,
+  .btn-xs,
+  .btn-group-xs > .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
