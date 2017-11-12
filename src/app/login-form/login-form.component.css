@@ -5,8 +5,7 @@
     padding-top: 130px;
 }
 .loginButton{
-    padding: 6px 1px;
-    border: 1px solid #e5e6e7;
-    border-radius: 4px;
+    padding: 0px !important;
+    color :#100e0e;
 }
 

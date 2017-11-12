@@ -7,6 +7,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 
 import { LaddaModule } from 'angular2-ladda';
 import { CoolStorageModule } from 'angular2-cool-storage';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CoolStorageModule } from 'angular2-cool-storage';
     CoolStorageModule,
     LaddaModule.forRoot({
       style: "expand-right"
-  }) 
+    }),
+    TooltipModule.forRoot(), 
   ],
   providers: [],
   bootstrap: [AppComponent]
