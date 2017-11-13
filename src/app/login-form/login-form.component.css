@@ -2,10 +2,13 @@
     color: #fff;
     width: 360px;
     margin: 0 auto;
-    padding-top: 130px;
+    padding-top: 200px;
 }
 .loginButton{
     padding: 0px !important;
     color :#100e0e;
+}
+.comapany-header{
+    margin-bottom: 30px;
 }
 

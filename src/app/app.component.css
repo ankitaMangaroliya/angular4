@@ -9,7 +9,7 @@
   background-image: url(http://20141-presscdn.pagely.netdna-cdn.com/wp-content/themes/bootstrap-basic/img/qaf_banner_bg.jpg);
 }
 .bg-login.bg-2 {
-  background-image: url(http://20141-presscdn.pagely.netdna-cdn.com/wp-content/themes/bootstrap-basic/img/QTM_main_banner.jpg);
+  background-image: url(../assets/images/login.jpg);
 }
 .bg-login.bg-3 {
   background-image: url(http://20141-presscdn.pagely.netdna-cdn.com/wp-content/themes/bootstrap-basic/img/banner_QAS_v2.jpg);
@@ -23,9 +23,3 @@
 .bg-login.bg-6 {
   background-image: url(http://20141-presscdn.pagely.netdna-cdn.com/wp-content/themes/bootstrap-basic/img/Qmetry_wisdom_banner.jpg);
 }
-.login-box{
-    color: #fff;
-    width: 400px;
-    margin: 0 auto;
-    padding-top: 60px;
-  }
