@@ -8,12 +8,14 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { LaddaModule } from 'angular2-ladda';
 import { CoolStorageModule } from 'angular2-cool-storage';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
