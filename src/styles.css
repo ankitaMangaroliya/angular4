@@ -302,6 +302,14 @@
   .pointer{
     cursor: pointer;
   }
+  .m-t-lg{
+    margin-top: 40px;
+    margin-left: 400px;
+    max-width: 500px;
+  }  
+  .nav-second-level > li > a {
+    padding-left: 52px;
+  }
 
 
 

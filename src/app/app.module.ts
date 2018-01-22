@@ -9,13 +9,15 @@ import { LaddaModule } from 'angular2-ladda';
 import { CoolStorageModule } from 'angular2-cool-storage';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginFormComponent,
-    SidebarComponent
+    SidebarComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
