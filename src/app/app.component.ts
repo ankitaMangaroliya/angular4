@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CoolLocalStorage } from 'angular2-cool-storage';
+import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,7 +12,9 @@ export class AppComponent {
   name:string
   isLogin:boolean=false;
 
-  constructor(private localstorage: CoolLocalStorage) {
+  constructor(
+    router: Router,
+    private localstorage: CoolLocalStorage) {
   }
   ngOnInit() {
     this.checkLogin();

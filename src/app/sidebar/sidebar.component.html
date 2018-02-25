@@ -6,59 +6,33 @@
   
             <ul id="menu-content" class="menu-content collapse out">
                 <li>
-                  <a href="#">
+                  <a routerLink="/dashboard">
                   <i class="fa fa-dashboard fa-lg"></i> Dashboard
                   </a>
                 </li>
 
+                <li data-toggle="collapse" data-target="testcase"  class="collapsed">
+                    <a routerLink="/doctor"><i class="fa fa-globe fa-lg"></i>Doctor</a>
+                </li>  
+                  
+                <li data-toggle="collapse" data-target="testcase"  class="collapsed">
+                      <a routerLink="/patient"><i class="fa fa-globe fa-lg"></i>Patient</a>
+                </li>  
+                    
                 <li  data-toggle="collapse" data-target="#products" class="collapsed" [ngClass]="{'active': !showUI }">
-                  <a><span (click)="toggleMenu()"><i class="fa fa-gift fa-lg"></i> UI <span class="arrow"></span></span></a>
+                  <a (click)="toggleMenu()"><span><i class="fa fa-gift fa-lg"></i> Area <span class="arrow"></span></span></a>
                   <ul class="nav-second-level" id="products" *ngIf="showUI">
-                      <li class="active"><a href="#">CSS3 Animation</a></li>
-                      <li><a href="#">General</a></li>  
-                      <li><a href="#">Buttons</a></li>
-                      <li><a href="#">Tabs & Accordions</a></li>
-                      <li><a href="#">Typography</a></li>
-                      <li><a href="#">FontAwesome</a></li>
-                      <li><a href="#">Slider</a></li>
-                      <li><a href="#">Panels</a></li>
-                      <li><a href="#">Widgets</a></li>
-                      <li><a href="#">Bootstrap Model</a></li>
+                      <li class="active"><a routerLink="/city">City</a></li>
+                      <li><a routerLink="/state">State</a></li>  
                   </ul>
                 </li>
               
-
-                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-                </li>  
-                <ul class="sub-menu collapse" id="service">
-                  <li>New Service 1</li>
-                  <li>New Service 2</li>
-                  <li>New Service 3</li>
-                </ul>
-
-
-                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-                </li>
-                <ul class="sub-menu collapse" id="new">
-                  <li>New New 1</li>
-                  <li>New New 2</li>
-                  <li>New New 3</li>
-                </ul>
-
-
-                 <li>
-                  <a href="#">
+                <li>
+                  <a routerLink="/profile">
                   <i class="fa fa-user fa-lg"></i> Profile
                   </a>
                   </li>
 
-                 <li>
-                  <a href="#">
-                  <i class="fa fa-users fa-lg"></i> Users
-                  </a>
-                </li>
             </ul>
      </div>
 </div>
